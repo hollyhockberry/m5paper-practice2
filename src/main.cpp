@@ -6,8 +6,6 @@
 #include <M5EPD.h>
 #include <M5GFX.h>
 
-extern const uint8_t rgb888[];
-
 namespace {
 
 void listFiles(std::vector<String>& files, File& file) {
